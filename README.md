@@ -1,2 +1,2 @@
 # pdf_reconciler
-compares pdf data to a set of csv files
+A Python tool that extracts and cleans table data from PDFs using pdfplumber, and then matches this data with corresponding CSV files by comparing company names through exact and fuzzy matching. The script cross-references numerical fields like cost and quantity, calculates a relevance score for textual descriptions using rapidfuzz, and outputs a consolidated CSV report. Ideal for automating data integration and reconciliation between PDF reports and CSV datasets.
